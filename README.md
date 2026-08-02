@@ -10,7 +10,7 @@ This repository contains Jupyter notebooks for exploring and analyzing hospital 
 - `hospital_financial_analysis.ipynb` - Cost, length-of-stay, satisfaction, insurance, and readmission analysis.
 - `hospital_geographic_analysis.ipynb` - Time-series and geographic analysis, including monthly admissions and state-level condition heatmaps.
 - `HospitalAnalysisIndex.ipynb` - Index notebook linking to the separate analysis notebooks.
-
+- `Practice/` - Additional practice files and data used during development.
 
 ## Requirements
 
@@ -39,6 +39,5 @@ python -m pip install pandas numpy matplotlib seaborn
 
 ## Notes
 
-- The dataset file includes a space in its name: `hospital .csv`.
 - If notebook execution fails, ensure the required packages are installed and the selected interpreter has access to them.
 - Outputs are saved in the notebook files and will render on GitHub when pushed.
