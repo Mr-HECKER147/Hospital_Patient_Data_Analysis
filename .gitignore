@@ -1,0 +1,17 @@
+# Python and Jupyter runtime files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+# Prevent accidental notebook-relative output from being committed.
+PyNotebooks/data/
+
+# Local environments and editor settings
+.venv/
+venv/
+.vscode/
+
+# SQLite temporary files
+*.db-journal
+*.db-wal
+*.db-shm
